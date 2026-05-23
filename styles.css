@@ -1,1 +1,129 @@
-/* your code here */
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background: #00e676;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .product {
+      display: flex;
+      background: white;
+      width: 500px;
+      border-radius: 10px;
+      padding: 30px;
+      position: relative;
+    }
+
+    .product__photo {
+      width: 45%;
+      position: relative;
+    }
+
+    .photo-container {
+      background: white;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+    }
+
+    .photo-main {
+      background: #a6e22e;
+      padding: 30px;
+      text-align: center;
+    }
+
+    .photo-main img {
+      width: 100%;
+    }
+
+    .photo-album {
+      padding: 15px;
+      background: white;
+    }
+
+    .photo-album ul {
+      display: flex;
+      justify-content: space-between;
+      list-style: none;
+    }
+
+    .photo-album ul li img {
+      width: 60px;
+      height: 60px;
+      border: 1px solid #ccc;
+      padding: 5px;
+      border-radius: 5px;
+    }
+
+    .product__info {
+      width: 55%;
+      padding-left: 40px;
+    }
+
+    .title h1 {
+      font-size: 40px;
+      color: #333;
+    }
+
+    .title span {
+      color: gray;
+      font-size: 14px;
+    }
+
+    .price {
+      color: #ff3d3d;
+      font-size: 50px;
+      margin: 30px 0;
+    }
+
+    .price span {
+      font-size: 25px;
+      vertical-align: top;
+    }
+
+    .variant h3,
+    .description h3 {
+      color: gray;
+      margin-bottom: 15px;
+      letter-spacing: 1px;
+    }
+
+    .variant ul {
+      display: flex;
+      list-style: none;
+      gap: 10px;
+      margin-bottom: 30px;
+    }
+
+    .variant ul li img {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      border: 1px solid #ccc;
+      cursor: pointer;
+    }
+
+    .description ul {
+      margin-left: 20px;
+      margin-bottom: 30px;
+      line-height: 1.8;
+    }
+
+.add-to-cart {
+      background: #ff3d3d;
+      color: white;
+      border: none;
+      padding: 15px 35px;
+      font-size: 16px;
+      border-radius: 8px;
+      cursor: pointer;
+      box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+    }
